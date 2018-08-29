@@ -1,0 +1,28 @@
+.m-header {
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-size: 20px;
+
+    & .back {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 40px;
+        height: 48px;
+        float: left;
+    }
+
+    & .back::after {
+        content: '';
+        position: absolute;
+        left: 20px;
+        top: 18px;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-top: #333 solid 2px;
+        border-left: #333 solid 2px;
+        transform: rotate(-45deg);
+    }
+}
