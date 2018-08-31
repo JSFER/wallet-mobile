@@ -1,0 +1,14 @@
+.m-navbar{
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-bottom: #e5e5e5 solid 1px;
+    box-sizing: border-box;
+
+    & ul>li{
+        display: inline-block;
+        width: 33.3%;
+        text-align: center;
+        font-size: 13px;
+    }
+}

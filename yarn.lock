@@ -5963,7 +5963,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.6.2"
   resolved "http://registry.npm.taobao.org/prop-types/download/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -6126,6 +6126,14 @@ react-dom@^16.4.2:
 react-error-overlay@^4.0.1:
   version "4.0.1"
   resolved "http://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
+
+react-swipe@^5.1.1:
+  version "5.1.1"
+  resolved "http://registry.npm.taobao.org/react-swipe/download/react-swipe-5.1.1.tgz#5aeb08afc5efec13507aed6e5841360821e9f0d1"
+  dependencies:
+    object-assign "^4.1.1"
+    prop-types "^15.6.0"
+    swipe-js-iso "^2.0.4"
 
 react@^16.4.2:
   version "16.4.2"
@@ -7011,6 +7019,10 @@ sw-toolbox@^3.4.0:
   dependencies:
     path-to-regexp "^1.0.1"
     serviceworker-cache-polyfill "^4.0.0"
+
+swipe-js-iso@^2.0.4:
+  version "2.0.4"
+  resolved "http://registry.npm.taobao.org/swipe-js-iso/download/swipe-js-iso-2.0.4.tgz#3371608112b30182e898f61d5bc02f7e38099c3d"
 
 symbol-tree@^3.2.1:
   version "3.2.2"
