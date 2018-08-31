@@ -33,7 +33,7 @@ class App extends Component {
                     />
                 </Carousel>
                 <NavBar />
-                <ScrollView height={window.innerHeight - 238}>
+                <ScrollView height={window.innerHeight - 230}>
                     {products.map(p => {
                         return <div className="item">
                             <div className="logo-area">
