@@ -25,7 +25,7 @@ class ScrollView extends Component {
 
         const iscroll = this.iscroll = new IScroll(this.container, {
             momentum: true,
-            click: false,
+            click: true,
             scrollX: false,
             scrollY: true,
             mouseWheel: false,

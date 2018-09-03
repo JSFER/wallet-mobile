@@ -36,6 +36,27 @@
                 color: #666;
                 line-height: 20px;
             }
+
+            & .footer{
+                margin-top: 10px;
+                font-size: 12px;
+                color: #666;
+                overflow: hidden;
+
+                & .limit{
+                    float: left;
+                }
+
+                & .apply-for-count{
+                    float: right;
+
+                    & .num{
+                        margin-left: 5px;
+                        color: #fb4e44;
+                    }
+                }
+            }
+
         }
 
         & .forward-area{
